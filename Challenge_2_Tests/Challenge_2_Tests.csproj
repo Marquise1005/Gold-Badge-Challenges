@@ -59,6 +59,10 @@
       <Project>{425b3e35-31d2-4097-adc9-5ceb053830b3}</Project>
       <Name>Challenge_2</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Challenge_2_Rebuilt\Challenge_2_Rebuilt.csproj">
+      <Project>{00a8c42c-72f9-412a-a6a6-a35f059fc185}</Project>
+      <Name>Challenge_2_Rebuilt</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

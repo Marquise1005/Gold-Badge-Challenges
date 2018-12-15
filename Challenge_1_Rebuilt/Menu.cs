@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Challenge_1
+namespace Challenge_1_Rebuilt
 {
     public class Menu
     {
@@ -23,5 +23,4 @@ namespace Challenge_1
         public string MealIngredients { get; set; }
         public decimal MealPrice { get; set; }
     }
-
 }

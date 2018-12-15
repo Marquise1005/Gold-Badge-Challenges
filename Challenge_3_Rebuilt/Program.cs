@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Challenge_1
+namespace Challenge_3_Rebuilt
 {
     class Program
     {
         static void Main(string[] args)
         {
-          
         }
     }
 }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Challenge_2
+namespace Challenge_2_Rebuilt
 {
-    public class ClaimRepository
+    class ClaimRepository
     {
         private Queue<Claim> _claimQueue = new Queue<Claim>();
 

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge_1", "Challenge_1\Challenge_1.csproj", "{2241D63E-7CF8-4E42-A27D-740B9F9E0DF4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge_1_Rebuilt", "Challenge_1\Challenge_1_Rebuilt.csproj", "{2241D63E-7CF8-4E42-A27D-740B9F9E0DF4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge_2", "Challenge_2\Challenge_2.csproj", "{425B3E35-31D2-4097-ADC9-5CEB053830B3}"
 EndProject
@@ -34,6 +34,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge_7_Tests", "Challenge_7_Tests\Challenge_7_Tests.csproj", "{E14C244F-5195-4735-8E46-55E2A416A6A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge_8_Tests", "Challenge_8_Tests\Challenge_8_Tests.csproj", "{2BE75AA2-FA8A-40DB-BC81-127061CDE6EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge_1", "..\..\..\CSharpChallenges-master\CSharpChallenges-master\Challenge_1_Rebuilt\Challenge_1.csproj", "{D2398281-6D68-440F-BC07-0FCAF4A45A93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge_3_Rebuilt", "Challenge_3_Rebuilt\Challenge_3_Rebuilt.csproj", "{54711F89-588A-495B-BFDE-8300659DC00C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge_4_Rebuilt", "Challenge_4_Rebuilt\Challenge_4_Rebuilt.csproj", "{D717C332-0D4F-4B83-B513-CA7EAC6F891B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge_5_Rebuilt", "Challenge_5_Rebuilt\Challenge_5_Rebuilt.csproj", "{146D5383-1469-4254-A8E7-2D9EB16A6E68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge_2_Rebuilt", "Challenge_2_Rebuilt\Challenge_2_Rebuilt.csproj", "{00A8C42C-72F9-412A-A6A6-A35F059FC185}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +115,26 @@ Global
 		{2BE75AA2-FA8A-40DB-BC81-127061CDE6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BE75AA2-FA8A-40DB-BC81-127061CDE6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BE75AA2-FA8A-40DB-BC81-127061CDE6EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2398281-6D68-440F-BC07-0FCAF4A45A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2398281-6D68-440F-BC07-0FCAF4A45A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2398281-6D68-440F-BC07-0FCAF4A45A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2398281-6D68-440F-BC07-0FCAF4A45A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54711F89-588A-495B-BFDE-8300659DC00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54711F89-588A-495B-BFDE-8300659DC00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54711F89-588A-495B-BFDE-8300659DC00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54711F89-588A-495B-BFDE-8300659DC00C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D717C332-0D4F-4B83-B513-CA7EAC6F891B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D717C332-0D4F-4B83-B513-CA7EAC6F891B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D717C332-0D4F-4B83-B513-CA7EAC6F891B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D717C332-0D4F-4B83-B513-CA7EAC6F891B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{146D5383-1469-4254-A8E7-2D9EB16A6E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146D5383-1469-4254-A8E7-2D9EB16A6E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146D5383-1469-4254-A8E7-2D9EB16A6E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146D5383-1469-4254-A8E7-2D9EB16A6E68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00A8C42C-72F9-412A-A6A6-A35F059FC185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A8C42C-72F9-412A-A6A6-A35F059FC185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A8C42C-72F9-412A-A6A6-A35F059FC185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A8C42C-72F9-412A-A6A6-A35F059FC185}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

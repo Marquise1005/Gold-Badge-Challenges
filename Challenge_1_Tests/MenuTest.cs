@@ -12,13 +12,13 @@ namespace Challenge_1_Tests
         public void Arrange()
         {
         }
-
+        
         [TestMethod]
         public void MenuRepository_DisplayList_ShouldReturnEqualLists()
         {
             MenuRepository testRepo = new MenuRepository();
-            List<Menu> testMenu = testRepo.DisplayList();
-            Menu menu = new Menu(1, "Hamburger", "HamburgerDesc", "HamburgerIngr", 55.50m);
+            List<Menu> testMenu = testRepo.GetList();
+            Menu menu = new Menu(1, "Chicken", "ChickenDesc", "ChickenIngr", 55.50m);
             testRepo.AddItem(menu);
 
             var expected = 1;
@@ -31,8 +31,8 @@ namespace Challenge_1_Tests
         public void MenuRepository_AddItem_ShouldReturnListOfOne()
         {
             MenuRepository testRepo = new MenuRepository();
-            List<Menu> testMenu = testRepo.DisplayList();
-            Menu menu = new Menu(1, "Hamburger", "HamburgerDesc", "HamburgerIngr", 55.50m);
+            List<Menu> testMenu = testRepo.GetList();
+            Menu menu = new Menu(1, "Chicken", "ChickenDesc", "ChickenIngr", 55.50m);
             testRepo.AddItem(menu);
 
             var expected = 1;
@@ -45,8 +45,8 @@ namespace Challenge_1_Tests
         public void MenuRepository_RemoveItem_ShouldReturnEmptyList()
         {
             MenuRepository testRepo = new MenuRepository();
-            List<Menu> testMenu = testRepo.DisplayList();
-            Menu menu = new Menu(1, "Hamburger", "HamburgerDesc", "HamburgerIngr", 55.50m);
+            List<Menu> testMenu = testRepo.GetList();
+            Menu menu = new Menu(1, "Chicken", "ChickenDesc", "ChickenIngr", 55.50m);
             testRepo.AddItem(menu);
 
             testRepo.RemoveItem(menu);
